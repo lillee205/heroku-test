@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;
+    background-color: rgb(133, 212, 231);
+    user-select:none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#mainDiv{
+    display: flex;
+    width:40vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 3em;
+
+    padding:0.5em;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainDiv:hover{
+    cursor:pointer;
+}
